@@ -8,9 +8,10 @@
           'task-priority--' + task.priority.toLowerCase(),
         ]"
       />
-      <p>
+      <p v-text="task.title"/>
+      <!-- <p>
         {{ task.title }}
-      </p>
+      </p> -->
     </div>
     <div class="buttons-container">
       <img
